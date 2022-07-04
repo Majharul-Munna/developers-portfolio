@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
@@ -24,10 +27,14 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(216, 58, 103), rgb(200, 54, 81));
+    background-image: linear-gradient(rgb(186, 41, 82), rgb(200, 54, 81));
     padding: 12px 24px;
     border-radius: 5%;
     color: white;
     font-weight: 700;
     
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
